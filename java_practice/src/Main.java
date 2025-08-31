@@ -14,6 +14,7 @@ public class Main {
     public static void nestedTernay(int temperature) {
         String message = (temperature < 0) ? "It's freezing!" : (temperature < 20) ? "It's cool." : "It's warm.";
         System.out.println(message);
+        //this is messege
 
     }
 }
