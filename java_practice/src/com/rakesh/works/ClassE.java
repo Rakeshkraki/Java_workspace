@@ -4,8 +4,14 @@ import com.rakesh.AccessModifiers.ClassA;
 
 public class ClassE extends ClassA {
 
-    public static void greeting4(){
-        greet1(); // public
-        greet3(); // protected
+    public static void main(String[] args) {
+
+        stringOperation();
+
     }
+
+    public static void stringOperation(){
+
+    }
+
 }
