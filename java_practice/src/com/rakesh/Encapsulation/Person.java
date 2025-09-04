@@ -2,7 +2,7 @@ package com.rakesh.Encapsulation;
 
 public class Person {
 
-    private String name;
+    private String name ;
 
     public String getName(){
         return name;
