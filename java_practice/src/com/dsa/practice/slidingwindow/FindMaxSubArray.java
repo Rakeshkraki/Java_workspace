@@ -12,14 +12,10 @@ public class FindMaxSubArray {
         int maxCount = 0;
         int windowSum = 0;
 
-        // creating first window count
-
         for(int i = 0; i < k; i++){
             windowSum += nums[i];
         }
-
         maxCount = windowSum;
-
         for(int i = k; i < nums.length; i++){
             windowSum += nums[i] - nums[i - k];
 
